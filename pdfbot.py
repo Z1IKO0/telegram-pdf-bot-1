@@ -16,6 +16,7 @@ import logging
 import uuid
 import shutil
 
+from config import Config
 import piexif
 import img2pdf
 from img2pdf import NegativeDimensionError, UnsupportedColorspaceError, ImageOpenError, \
