@@ -18,8 +18,8 @@ import shutil
 
 import piexif
 import img2pdf
-from img2pdf import NegativeDimensionError, UnsupportedColorspaceError, ImageOpenError, \
-    JpegColorspaceError, PdfTooLargeError, AlphaChannelError, ExifOrientationError
+from img2pdf
+
 from PyPDF2 import PdfFileMerger
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
 
